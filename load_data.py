@@ -2,7 +2,7 @@
 from bs4 import BeautifulSoup
 import time
 import requests
-from db.con import DB
+from db.connection import DB
 from mobile_data import clone_mobile_data
 import datetime
 
